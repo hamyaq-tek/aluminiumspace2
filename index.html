@@ -47,6 +47,42 @@
             margin-bottom: 20px;
             color: #ecf0f1;
         }
+        .circle-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(243, 156, 18, 0.4);
+    overflow: hidden;
+    position: relative;
+}
+
+.construction-icon {
+    background: #34495e;
+    font-size: 100px;
+    color: #f39c12;
+}
+
+.logo-icon {
+    background: #fff;
+    border: 5px solid #3498db;
+}
+
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
         
         .construction-icon {
             margin: 30px auto;
@@ -221,15 +257,13 @@
         <div class="logo">Aluminium Space</div>
         <h1>Our Website is Under Construction</h1>
           
-        <div class="icon-container">
-            <div class="circle-icon construction-icon">🚧</div>
+    <div class="icon-container">
+        <div class="circle-icon construction-icon">🚧</div>
             <div class="circle-icon logo-icon">
-                <!-- Replace with your actual logo -->
-                <div class="logo-placeholder">
-                    <span><img src="./logo_achref.png" alt="Aluminium Space Logo"></span>
-                </div>
+            <img src="./logo_achref.png" alt="Aluminium Space Logo">
             </div>
         </div>
+    </div>
         
         <p>We're working hard to bring you an amazing web experience. Our new website is packed with exciting features and fresh content. Stay tuned!</p>
         
