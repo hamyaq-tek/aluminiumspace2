@@ -1,28 +1,303 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alu Space - Premium Aluminum Doors & Windows</title>
-    <meta name="description" content="Professional aluminum door and window installation services" />
-    <meta name="author" content="Alu Space" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Under Construction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #2c3e50, #1a2530);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            padding: 40px 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+        }
+        
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #3498db;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ecf0f1;
+        }
+        
+        .construction-icon {
+            margin: 30px auto;
+            width: 200px;
+            height: 200px;
+            background: #34495e;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 100px;
+            color: #f39c12;
+            box-shadow: 0 0 30px rgba(243, 156, 18, 0.4);
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 40px 0;
+        }
+        
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 80px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .countdown-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #3498db;
+        }
+        
+        .countdown-label {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            color: #ecf0f1;
+        }
+        
+        .notify-form {
+            margin: 40px auto;
+            max-width: 500px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        input {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            outline: none;
+            transition: all 0.3s;
+        }
+        
+        input:focus {
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+        }
+        
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+        
+        button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.6);
+        }
+        
+        .social-links {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-icon:hover {
+            background: #3498db;
+            transform: translateY(-5px);
+        }
+        
+        .contact-info {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #bdc3c7;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            .construction-icon {
+                width: 150px;
+                height: 150px;
+                font-size: 70px;
+            }
+            
+            .countdown {
+                gap: 10px;
+            }
+            
+            .countdown-item {
+                min-width: 60px;
+                padding: 15px;
+            }
+            
+            .countdown-number {
+                font-size: 24px;
+            }
+            
+            .countdown-label {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">CompanyName</div>
+        <h1>Our Website is Under Construction</h1>
+        
+        <div class="construction-icon">🚧</div>
+        
+        <p>We're working hard to bring you an amazing web experience. Our new website is packed with exciting features and fresh content. Stay tuned!</p>
+        
+        <div class="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+        
+        <div class="notify-form">
+            <p>Get notified when we launch:</p>
+            <form id="notification-form">
+                <div class="form-group">
+                    <input type="email" placeholder="Enter your email address" required>
+                </div>
+                <button type="submit">Notify Me</button>
+            </form>
+        </div>
+        
+        <div class="social-links">
+            <a href="#" class="social-icon">f</a>
+            <a href="#" class="social-icon">t</a>
+            <a href="#" class="social-icon">in</a>
+            <a href="#" class="social-icon">ig</a>
+        </div>
+        
+        <div class="contact-info">
+            <p>For inquiries, contact us at: <strong>hello@companyname.com</strong></p>
+        </div>
+    </div>
 
-    <meta property="og:title" content="Alu Space - Premium Aluminum Doors & Windows" />
-    <meta property="og:description" content="Professional aluminum door and window installation services" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000'><rect x='2' y='4' width='20' height='16' rx='2' fill='none' stroke='%23000' stroke-width='2'/><path d='M8 12h8M8 8h8M8 16h8' stroke='%23000' stroke-width='1.5'/></svg>" type="image/svg+xml" />
-    <script type="module" crossorigin src="/index-DxLQH2nj.js"></script>
-    <link rel="stylesheet" crossorigin href="/index-C_pNolJ5.css">
-  </head>
-
-  <body>
-    <div id="root"></div>
-  </body>
+    <script>
+        // Set the launch date (2 months from now)
+        const launchDate = new Date();
+        launchDate.setMonth(launchDate.getMonth() + 2);
+        
+        function updateCountdown() {
+            const now = new Date();
+            const difference = launchDate - now;
+            
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+            
+            document.getElementById('days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        // Initial update
+        updateCountdown();
+        
+        // Update every second
+        setInterval(updateCountdown, 1000);
+        
+        // Form submission handling
+        document.getElementById('notification-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks for your interest! We\'ll notify you when we launch.');
+            this.reset();
+        });
+    </script>
+</body>
 </html>
